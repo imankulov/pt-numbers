@@ -18,7 +18,7 @@ Build
 
 Run
 
-    HTTP_PORT=8080 pt-numbers
+    PORT=8080 pt-numbers
 
 Test
 

@@ -13,7 +13,7 @@ import (
 
 func main() {
 	http.HandleFunc("/", convert)
-	httpPort := os.Getenv("HTTP_PORT")
+	httpPort := os.Getenv("PORT")
 	if httpPort == "" {
 		httpPort = "9090"
 	}
